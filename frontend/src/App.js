@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import TaskForm from './TaskForm';
-import TaskItem from './TaskItem';
-import Filter from './Filter';
+import TaskForm from './components/TaskForm';
+import TaskItem from './components/TaskItem';
+import Filter from './components/Filter';
 
 function App() {
   const [tasks, setTasks] = useState([]);
